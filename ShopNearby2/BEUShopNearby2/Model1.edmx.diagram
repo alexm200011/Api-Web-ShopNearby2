@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a02bae80a9ee4a91b27fde201363e09a" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="DBShopNearbyModel.Ciudad" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopNearbyModel.Propietario" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopNearbyModel.Tienda" Width="1.5" PointX="3.5" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="DBShopNearbyModel.FK_Tienda_Ciudad" ManuallyRouted="false" />
+        <AssociationConnector Association="DBShopNearbyModel.FK_Tienda_Propietario" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
